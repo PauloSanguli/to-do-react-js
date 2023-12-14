@@ -1,0 +1,42 @@
+.canva1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: radial-gradient(circle, #1cf870 10%,  rgba(24, 25, 25,0.4) 90%);
+    background-blend-mode: normal;
+    position: absolute;
+    top: 8%;
+    left: 2%;
+}
+
+.canva2 {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    background: radial-gradient(circle, #1cf870 10%,  rgba(24, 25, 25, 0.4) 90%);
+    background-blend-mode: normal;
+    position: absolute;
+    top: 30%;
+    right: 11%;
+}
+
+.canva3 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background: radial-gradient(circle, #1cf870 10%,  rgba(24, 25, 25, 0.4) 90%);
+    background-blend-mode: normal;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+.canva4 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: radial-gradient(circle, #1cf870 10%,  rgba(24, 25, 25, 0.4) 90%);
+    background-blend-mode: normal;
+    position: absolute;
+    top: 9%;
+    right: 70%;
+}

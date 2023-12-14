@@ -1,0 +1,63 @@
+.page-edit {
+    width: 54%;
+    height: 70%;
+    bottom: 0%;
+    background: rgba(0, 0, 0, 0.010);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    transition: all .3s;
+}
+
+.page-edit form {
+    width: 90%;
+    height: 66%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.page-edit form label:nth-of-type(2){
+    width: 80%;
+}
+
+.page-edit form label:nth-of-type(3){
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* background-color: aqua; */
+}
+.page-edit form label:nth-of-type(3) input{
+    border: none;
+    height: 74%;
+    width: 90%;
+}
+.page-edit form label input {
+    background-color: transparent;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.372);
+}
+.page-edit form button {
+    padding: 10px 40px;
+    border-radius: 4px;
+    border: none;
+    background: #454746;
+    cursor: pointer;
+    color: white;
+    transition: all .3s;
+}
+.page-edit form button:hover{
+    background-color: #545655;
+    transition: all .3s;
+}
+
+
+/* style page hidden */
+.page-off {
+    height: 0%;
+    overflow: hidden;
+    transition: all .3s;
+}

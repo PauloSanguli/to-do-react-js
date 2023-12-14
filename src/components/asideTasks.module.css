@@ -1,0 +1,66 @@
+.asideTasks {
+    width: 86%;
+    height: 70%;
+    /* background: yellow; */
+}
+
+.asideTasks header {
+    width: 100%;
+    height: 16%;
+    border-bottom: 1px solid #76efa5;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+
+.asideTasks header p{
+    font-size: 134%;
+    padding: 5px 14px;
+    /* color: #76efa5; */
+}
+
+.asideTasks aside {
+    width: 100%;
+    height: 84%;
+    overflow: auto;
+    
+    /* background-color:  red; */
+}
+.asideTasks aside::-webkit-scrollbar {
+    width: 14px;
+}
+.asideTasks aside::-webkit-scrollbar-track {
+    background: white;
+    width: 100%;
+}
+.asideTasks aside::-webkit-scrollbar-thumb {
+    background: #76efa5;
+    border-radius: 50px;
+    border: 4px solid white;
+}
+
+.asideTasks aside .arrowTasks {
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 14px;
+    border-radius: 16px;
+    border: 10px solid white;
+    background-color: rgba(237, 238, 238, 0.4);
+}
+.asideTasks aside .arrowTasks input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    background: #76efa5;
+}
+
+.paragraphInfoJobs {
+    text-align: center;
+    color: rgba(0,0,0,0.2);
+    top: 20%;
+    left: 45%;
+    position: absolute;
+}

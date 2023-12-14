@@ -1,0 +1,54 @@
+.page-delete {
+    width: 54%;
+    height: 70%;
+    bottom: 0%;
+    background: rgba(0, 0, 0, 0.010);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    transition: all .3s;
+}
+.page-delete form {
+    width: 90%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.page-delete form label {
+    width: 100%;
+    height: 30%;
+}
+.page-delete form label input{
+    border: 1px solid rgba(128, 128, 128, 0.507);
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+}
+.page-delete form button{
+    width: 100%;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #454746;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: all .3s;
+}
+.page-delete form button:hover{
+    background-color: #545655;
+    transition: all .3s;
+}
+
+
+/* style page hidden */
+.page-off {
+    height: 0%;
+    overflow: hidden;
+    transition: all .3s;
+}
